@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Midnight Muse Boutique</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Midnight Muse Boutique</h1>
+  <p id="greeting"></p>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <button id="themeToggle">🌙</button>
+  </nav>
+
+  <div class="cart">🛒 Cart: <span id="cartCount">0</span></div>
+</header>
+
+<main>
+  <h2>Our Collection</h2>
+
+  <section class="products">
+    <div class="product">
+      <img src="images/dress.jpg.jpg"alt="Black dress">
+      <h3>Black Silk Dress</h3>
+      <p>KES 3,500</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="images/blazer.jpg.jpg"alt="Beige blazer">
+      <h3>Beige Blazer</h3>
+      <p>KES 4,200</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="images/heels.jpg.jpg"alt="White heels">
+      <h3>White Heels</h3>
+      <p>KES 2,800</p>
+      <button onclick="addToCart()">Add to Cart</button>
+    </div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
